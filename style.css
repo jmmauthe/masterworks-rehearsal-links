@@ -39,7 +39,9 @@ nav {
 }
 
 ul li {
-  list-style: none;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
 }
 
 .links-container {
@@ -120,7 +122,10 @@ nav svg {
   }
 }
 
-.playlist{
+/*
+.all-voices{
   display:flex;
-  justify-content:space-between;
+  justify-content:center;
+  align-
 }
+*/
