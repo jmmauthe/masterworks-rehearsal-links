@@ -119,3 +119,8 @@ nav svg {
     z-index: 9;
   }
 }
+
+.playlist{
+  display:flex;
+  justify-content:space-between;
+}
