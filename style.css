@@ -151,9 +151,14 @@ li {
 }
 */
 
-.content, .all-voices{
-  max-width:960px;
-  margin-inline:auto;
+.content,
+.all-voices,
+.sop-voice,
+.alt-voice,
+.ten-voice,
+.bas-voice {
+  max-width: 960px;
+  margin-inline: auto;
 }
 ul {
   list-style-type: none;
@@ -173,6 +178,7 @@ ul {
 #ten,
 #bas {
   display: flex;
+  flex-wrap: wrap;
   border: 3px solid #757575;
   padding-bottom: 10px;
   margin-bottom: 10px;
