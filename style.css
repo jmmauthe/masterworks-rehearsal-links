@@ -151,7 +151,7 @@ li {
 }
 */
 
-.content{
+.content, .all-voices{
   max-width:960px;
   margin-inline:auto;
 }
