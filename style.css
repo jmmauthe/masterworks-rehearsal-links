@@ -151,6 +151,10 @@ li {
 }
 */
 
+.content{
+  max-width:960px;
+  margin-inline:auto;
+}
 ul {
   list-style-type: none;
 }
