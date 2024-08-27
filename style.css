@@ -1,5 +1,5 @@
 :root {
-  --color-1: #0f1016;
+  --color-1: #000;
   --text-color: #f0f0f0;
   --accent-color: #006aff;
 }
@@ -12,6 +12,8 @@
 */
 
 html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 60px;
   font-size: 12pt;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -25,17 +27,21 @@ html {
 }
 
 hr {
-  border: 3px solid #000;
-  margin-top: 0;
-  margin-bottom: 30px;
+  border: 0.5px solid #000;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 /*  ----- NAVIGATION -----  */
 nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
   height: 60px;
   background-color: var(--color-1);
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .links-container {
