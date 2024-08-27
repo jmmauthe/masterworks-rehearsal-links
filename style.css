@@ -156,7 +156,9 @@ li {
 .sop-voice,
 .alt-voice,
 .ten-voice,
-.bas-voice {
+.bas-voice,
+ul,
+li {
   max-width: 960px;
   margin-inline: auto;
 }
